@@ -20,6 +20,7 @@
 		E13127F31657C11F007E5389 /* PsychologistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13127F21657C11F007E5389 /* PsychologistViewController.m */; };
 		E13128011657C781007E5389 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E13127FE1657C781007E5389 /* FaceView.m */; };
 		E13128021657C781007E5389 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13128001657C781007E5389 /* HappinessViewController.m */; };
+		E13128171657E3D7007E5389 /* RotatableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13128161657E3D7007E5389 /* RotatableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		E13127FE1657C781007E5389 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 		E13127FF1657C781007E5389 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
 		E13128001657C781007E5389 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+		E13128151657E3D7007E5389 /* RotatableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatableViewController.h; sourceTree = "<group>"; };
+		E13128161657E3D7007E5389 /* RotatableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				E13127FE1657C781007E5389 /* FaceView.m */,
 				E13127FF1657C781007E5389 /* HappinessViewController.h */,
 				E13128001657C781007E5389 /* HappinessViewController.m */,
+				E13128151657E3D7007E5389 /* RotatableViewController.h */,
+				E13128161657E3D7007E5389 /* RotatableViewController.m */,
 				E13127DD1657C11F007E5389 /* Supporting Files */,
 			);
 			path = Psychologist;
@@ -189,6 +194,7 @@
 				E13127F31657C11F007E5389 /* PsychologistViewController.m in Sources */,
 				E13128011657C781007E5389 /* FaceView.m in Sources */,
 				E13128021657C781007E5389 /* HappinessViewController.m in Sources */,
+				E13128171657E3D7007E5389 /* RotatableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +276,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Psychologist/Psychologist-Prefix.pch";
 				INFOPLIST_FILE = "Psychologist/Psychologist-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -281,7 +289,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Psychologist/Psychologist-Prefix.pch";
 				INFOPLIST_FILE = "Psychologist/Psychologist-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
