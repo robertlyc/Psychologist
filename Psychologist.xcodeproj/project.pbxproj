@@ -22,6 +22,7 @@
 		E13128021657C781007E5389 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13128001657C781007E5389 /* HappinessViewController.m */; };
 		E13128171657E3D7007E5389 /* RotatableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13128161657E3D7007E5389 /* RotatableViewController.m */; };
 		E131281A1657E5E5007E5389 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13128191657E5E5007E5389 /* iPad.storyboard */; };
+		E131281F16587D59007E5389 /* DrPillWebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E131281E16587D59007E5389 /* DrPillWebsiteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		E13128161657E3D7007E5389 /* RotatableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatableViewController.m; sourceTree = "<group>"; };
 		E13128191657E5E5007E5389 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 		E131281B1657EB9B007E5389 /* SplitViewBarButtonItemPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewBarButtonItemPresenter.h; sourceTree = "<group>"; };
+		E131281D16587D59007E5389 /* DrPillWebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrPillWebsiteViewController.h; sourceTree = "<group>"; };
+		E131281E16587D59007E5389 /* DrPillWebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrPillWebsiteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 				E13128151657E3D7007E5389 /* RotatableViewController.h */,
 				E13128161657E3D7007E5389 /* RotatableViewController.m */,
 				E131281B1657EB9B007E5389 /* SplitViewBarButtonItemPresenter.h */,
+				E131281C16587D2B007E5389 /* Bonus */,
 				E13127DD1657C11F007E5389 /* Supporting Files */,
 			);
 			path = Psychologist;
@@ -125,6 +129,15 @@
 				E13127EC1657C11F007E5389 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E131281C16587D2B007E5389 /* Bonus */ = {
+			isa = PBXGroup;
+			children = (
+				E131281D16587D59007E5389 /* DrPillWebsiteViewController.h */,
+				E131281E16587D59007E5389 /* DrPillWebsiteViewController.m */,
+			);
+			name = Bonus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +214,7 @@
 				E13128011657C781007E5389 /* FaceView.m in Sources */,
 				E13128021657C781007E5389 /* HappinessViewController.m in Sources */,
 				E13128171657E3D7007E5389 /* RotatableViewController.m in Sources */,
+				E131281F16587D59007E5389 /* DrPillWebsiteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
